@@ -200,13 +200,14 @@ chips:
   - canonical_name: SN7405
     aliases: ["74x05", "7405"]
     category: specialty_gates
-    status: planned
+    status: complete
     rtl_file: rtl/sn7405.sv
     doc_file: docs/sn7405.md
     tb_file: tb/sn7405_tb.sv
-    verification_status: not_started
-    assumptions: []
-    notes: "Hex inverter, open-collector outputs."
+    verification_status: sim_pass
+    assumptions:
+      - "Open-collector electrical behavior is abstracted to logical inversion with implicit pull-up."
+    notes: "Hex inverter, open-collector outputs; implementation complete and simulation passing."
     priority: 15
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
