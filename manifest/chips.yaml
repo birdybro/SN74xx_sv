@@ -68,13 +68,13 @@ chips:
   - canonical_name: SN7486
     aliases: ["74x86", "7486"]
     category: basic_gates
-    status: planned
+    status: complete
     rtl_file: rtl/sn7486.sv
     doc_file: docs/sn7486.md
     tb_file: tb/sn7486_tb.sv
-    verification_status: not_started
+    verification_status: sim_pass
     assumptions: []
-    notes: ""
+    notes: "Quad 2-input XOR gate; implementation complete and simulation passing."
     priority: 6
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
