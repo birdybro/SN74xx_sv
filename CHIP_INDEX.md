@@ -14,7 +14,7 @@
 | SN74138 | decoders | complete | docs/sn74138.md | rtl/sn74138.sv | tb/sn74138_tb.sv | 3-to-8 decoder; sim_pass |
 | SN74153 | multiplexers | complete | docs/sn74153.md | rtl/sn74153.sv | tb/sn74153_tb.sv | Dual 4:1 mux; sim_pass |
 | SN74157 | multiplexers | complete | docs/sn74157.md | rtl/sn74157.sv | tb/sn74157_tb.sv | Quad 2:1 mux; sim_pass |
-| SN7401 | specialty_gates | planned | docs/sn7401.md | rtl/sn7401.sv | tb/sn7401_tb.sv | Quad 2-input NAND, open-collector |
+| SN7401 | specialty_gates | complete | docs/sn7401.md | rtl/sn7401.sv | tb/sn7401_tb.sv | Quad 2-input NAND, open-collector; sim_pass |
 | SN7403 | specialty_gates | planned | docs/sn7403.md | rtl/sn7403.sv | tb/sn7403_tb.sv | Quad 2-input NAND, open-collector |
 | SN7405 | specialty_gates | planned | docs/sn7405.md | rtl/sn7405.sv | tb/sn7405_tb.sv | Hex inverter, open-collector |
 | SN7406 | specialty_gates | planned | docs/sn7406.md | rtl/sn7406.sv | tb/sn7406_tb.sv | Hex inverter buffer, open-collector |
