@@ -215,13 +215,14 @@ chips:
   - canonical_name: SN7406
     aliases: ["74x06", "7406"]
     category: specialty_gates
-    status: planned
+    status: complete
     rtl_file: rtl/sn7406.sv
     doc_file: docs/sn7406.md
     tb_file: tb/sn7406_tb.sv
-    verification_status: not_started
-    assumptions: []
-    notes: "Hex inverter buffer, open-collector outputs."
+    verification_status: sim_pass
+    assumptions:
+      - "Open-collector electrical behavior is abstracted to logical inversion with implicit pull-up."
+    notes: "Hex inverter buffer, open-collector outputs; implementation complete and simulation passing."
     priority: 16
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
@@ -1540,4 +1541,3 @@ chips:
     priority: 110
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
-

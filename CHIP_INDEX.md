@@ -17,7 +17,7 @@
 | SN7401 | specialty_gates | complete | docs/sn7401.md | rtl/sn7401.sv | tb/sn7401_tb.sv | Quad 2-input NAND, open-collector; sim_pass |
 | SN7403 | specialty_gates | complete | docs/sn7403.md | rtl/sn7403.sv | tb/sn7403_tb.sv | Quad 2-input NAND, open-collector; sim_pass |
 | SN7405 | specialty_gates | complete | docs/sn7405.md | rtl/sn7405.sv | tb/sn7405_tb.sv | Hex inverter, open-collector; sim_pass |
-| SN7406 | specialty_gates | planned | docs/sn7406.md | rtl/sn7406.sv | tb/sn7406_tb.sv | Hex inverter buffer, open-collector |
+| SN7406 | specialty_gates | complete | docs/sn7406.md | rtl/sn7406.sv | tb/sn7406_tb.sv | Hex inverter buffer, open-collector; sim_pass |
 | SN7407 | specialty_gates | planned | docs/sn7407.md | rtl/sn7407.sv | tb/sn7407_tb.sv | Hex buffer, open-collector |
 | SN7411 | basic_gates | planned | docs/sn7411.md | rtl/sn7411.sv | tb/sn7411_tb.sv | Triple 3-input AND |
 | SN7427 | basic_gates | planned | docs/sn7427.md | rtl/sn7427.sv | tb/sn7427_tb.sv | Triple 3-input NOR |
