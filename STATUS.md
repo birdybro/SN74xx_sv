@@ -1,7 +1,7 @@
 # Project Status
 
 - Date: 2026-03-13
-- Total chips in manifest: 32
+- Total chips in manifest: 110
 - Complete: 15
 - Blocked: 0
 - Excluded: 0
