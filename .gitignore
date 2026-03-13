@@ -1,0 +1,8 @@
+# Simulation/build artifacts
+build/
+obj_dir/
+
+# Editor/system clutter
+*.swp
+*~
+.DS_Store

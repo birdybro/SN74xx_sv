@@ -1,0 +1,158 @@
+chips:
+  - canonical_name: SN7400
+    aliases: ["74x00", "7400"]
+    category: basic_gates
+    status: complete
+    rtl_file: rtl/sn7400.sv
+    doc_file: docs/sn7400.md
+    tb_file: tb/sn7400_tb.sv
+    verification_status: sim_pass
+    assumptions:
+      - "Pure logical model only; no propagation delay modeling."
+    notes: "Quad 2-input NAND gate; implementation complete and simulation passing."
+    priority: 1
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+  - canonical_name: SN7402
+    aliases: ["74x02", "7402"]
+    category: basic_gates
+    status: planned
+    rtl_file: rtl/sn7402.sv
+    doc_file: docs/sn7402.md
+    tb_file: tb/sn7402_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: ""
+    priority: 2
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+  - canonical_name: SN7404
+    aliases: ["74x04", "7404"]
+    category: basic_gates
+    status: planned
+    rtl_file: rtl/sn7404.sv
+    doc_file: docs/sn7404.md
+    tb_file: tb/sn7404_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: ""
+    priority: 3
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+  - canonical_name: SN7408
+    aliases: ["74x08", "7408"]
+    category: basic_gates
+    status: planned
+    rtl_file: rtl/sn7408.sv
+    doc_file: docs/sn7408.md
+    tb_file: tb/sn7408_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: ""
+    priority: 4
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+  - canonical_name: SN7432
+    aliases: ["74x32", "7432"]
+    category: basic_gates
+    status: planned
+    rtl_file: rtl/sn7432.sv
+    doc_file: docs/sn7432.md
+    tb_file: tb/sn7432_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: ""
+    priority: 5
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+  - canonical_name: SN7486
+    aliases: ["74x86", "7486"]
+    category: basic_gates
+    status: planned
+    rtl_file: rtl/sn7486.sv
+    doc_file: docs/sn7486.md
+    tb_file: tb/sn7486_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: ""
+    priority: 6
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+  - canonical_name: SN7410
+    aliases: ["74x10", "7410"]
+    category: basic_gates
+    status: planned
+    rtl_file: rtl/sn7410.sv
+    doc_file: docs/sn7410.md
+    tb_file: tb/sn7410_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: ""
+    priority: 7
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+  - canonical_name: SN7420
+    aliases: ["74x20", "7420"]
+    category: basic_gates
+    status: planned
+    rtl_file: rtl/sn7420.sv
+    doc_file: docs/sn7420.md
+    tb_file: tb/sn7420_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: ""
+    priority: 8
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+  - canonical_name: SN7430
+    aliases: ["74x30", "7430"]
+    category: basic_gates
+    status: planned
+    rtl_file: rtl/sn7430.sv
+    doc_file: docs/sn7430.md
+    tb_file: tb/sn7430_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: ""
+    priority: 9
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+  - canonical_name: SN74138
+    aliases: ["74x138", "74138"]
+    category: decoders
+    status: planned
+    rtl_file: rtl/sn74138.sv
+    doc_file: docs/sn74138.md
+    tb_file: tb/sn74138_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: ""
+    priority: 10
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+  - canonical_name: SN74153
+    aliases: ["74x153", "74153"]
+    category: multiplexers
+    status: planned
+    rtl_file: rtl/sn74153.sv
+    doc_file: docs/sn74153.md
+    tb_file: tb/sn74153_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: ""
+    priority: 11
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+  - canonical_name: SN74157
+    aliases: ["74x157", "74157"]
+    category: multiplexers
+    status: planned
+    rtl_file: rtl/sn74157.sv
+    doc_file: docs/sn74157.md
+    tb_file: tb/sn74157_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: ""
+    priority: 12
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
