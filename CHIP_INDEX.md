@@ -37,7 +37,7 @@
 | SN7409 | basic_gates | complete | docs/sn7409.md | rtl/sn7409.sv | tb/sn7409_tb.sv | Quad 2-input AND gate (higher drive variant); sim_pass |
 | SN7412 | basic_gates | complete | docs/sn7412.md | rtl/sn7412.sv | tb/sn7412_tb.sv | Triple 3-input NAND gate; sim_pass |
 | SN7413 | basic_gates | complete | docs/sn7413.md | rtl/sn7413.sv | tb/sn7413_tb.sv | Dual 4-input NAND Schmitt-trigger gate; sim_pass |
-| SN7414 | basic_gates | planned | docs/sn7414.md | rtl/sn7414.sv | tb/sn7414_tb.sv | Hex Schmitt-trigger inverter. |
+| SN7414 | basic_gates | complete | docs/sn7414.md | rtl/sn7414.sv | tb/sn7414_tb.sv | Hex Schmitt-trigger inverter; sim_pass |
 | SN7416 | specialty_gates | planned | docs/sn7416.md | rtl/sn7416.sv | tb/sn7416_tb.sv | Hex inverting buffer/driver, open-collector outputs. |
 | SN7417 | specialty_gates | planned | docs/sn7417.md | rtl/sn7417.sv | tb/sn7417_tb.sv | Hex non-inverting buffer/driver, open-collector outputs. |
 | SN7421 | basic_gates | planned | docs/sn7421.md | rtl/sn7421.sv | tb/sn7421_tb.sv | Dual 4-input AND gate. |

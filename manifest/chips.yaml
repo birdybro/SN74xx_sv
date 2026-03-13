@@ -496,13 +496,13 @@ chips:
   - canonical_name: SN7414
     aliases: ["74x14", "7414"]
     category: basic_gates
-    status: planned
+    status: complete
     rtl_file: rtl/sn7414.sv
     doc_file: docs/sn7414.md
     tb_file: tb/sn7414_tb.sv
-    verification_status: not_started
+    verification_status: sim_pass
     assumptions: []
-    notes: "Hex Schmitt-trigger inverter."
+    notes: "Hex Schmitt-trigger inverter; implementation complete and simulation passing."
     priority: 36
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
