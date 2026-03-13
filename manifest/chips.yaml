@@ -540,13 +540,13 @@ chips:
   - canonical_name: SN7421
     aliases: ["74x21", "7421"]
     category: basic_gates
-    status: planned
+    status: complete
     rtl_file: rtl/sn7421.sv
     doc_file: docs/sn7421.md
     tb_file: tb/sn7421_tb.sv
-    verification_status: not_started
+    verification_status: sim_pass
     assumptions: []
-    notes: "Dual 4-input AND gate."
+    notes: "Dual 4-input AND gate; implementation complete and simulation passing."
     priority: 39
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
