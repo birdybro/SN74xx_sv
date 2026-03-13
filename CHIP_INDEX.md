@@ -35,7 +35,7 @@
 | SN74165 | shift_registers | planned | docs/sn74165.md | rtl/sn74165.sv | tb/sn74165_tb.sv | 8-bit PISO shift register |
 | SN74194 | shift_registers | planned | docs/sn74194.md | rtl/sn74194.sv | tb/sn74194_tb.sv | 4-bit universal shift register |
 | SN7409 | basic_gates | complete | docs/sn7409.md | rtl/sn7409.sv | tb/sn7409_tb.sv | Quad 2-input AND gate (higher drive variant); sim_pass |
-| SN7412 | basic_gates | planned | docs/sn7412.md | rtl/sn7412.sv | tb/sn7412_tb.sv | Triple 3-input NAND gate. |
+| SN7412 | basic_gates | complete | docs/sn7412.md | rtl/sn7412.sv | tb/sn7412_tb.sv | Triple 3-input NAND gate; sim_pass |
 | SN7413 | basic_gates | planned | docs/sn7413.md | rtl/sn7413.sv | tb/sn7413_tb.sv | Dual 4-input NAND Schmitt-trigger gate. |
 | SN7414 | basic_gates | planned | docs/sn7414.md | rtl/sn7414.sv | tb/sn7414_tb.sv | Hex Schmitt-trigger inverter. |
 | SN7416 | specialty_gates | planned | docs/sn7416.md | rtl/sn7416.sv | tb/sn7416_tb.sv | Hex inverting buffer/driver, open-collector outputs. |
