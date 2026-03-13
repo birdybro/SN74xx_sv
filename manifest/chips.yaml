@@ -7,12 +7,12 @@ chips:
     doc_file: docs/sn7400.md
     tb_file: tb/sn7400_tb.sv
     verification_status: sim_pass
-    assumptions:
-      - "Pure logical model only; no propagation delay modeling."
+    assumptions: ["Pure logical model only; no propagation delay modeling."]
     notes: "Quad 2-input NAND gate; implementation complete and simulation passing."
     priority: 1
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
+
   - canonical_name: SN7402
     aliases: ["74x02", "7402"]
     category: basic_gates
@@ -26,6 +26,7 @@ chips:
     priority: 2
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
+
   - canonical_name: SN7404
     aliases: ["74x04", "7404"]
     category: basic_gates
@@ -39,6 +40,7 @@ chips:
     priority: 3
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
+
   - canonical_name: SN7408
     aliases: ["74x08", "7408"]
     category: basic_gates
@@ -52,6 +54,7 @@ chips:
     priority: 4
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
+
   - canonical_name: SN7432
     aliases: ["74x32", "7432"]
     category: basic_gates
@@ -65,6 +68,7 @@ chips:
     priority: 5
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
+
   - canonical_name: SN7486
     aliases: ["74x86", "7486"]
     category: basic_gates
@@ -78,6 +82,7 @@ chips:
     priority: 6
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
+
   - canonical_name: SN7410
     aliases: ["74x10", "7410"]
     category: basic_gates
@@ -91,6 +96,7 @@ chips:
     priority: 7
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
+
   - canonical_name: SN7420
     aliases: ["74x20", "7420"]
     category: basic_gates
@@ -104,6 +110,7 @@ chips:
     priority: 8
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
+
   - canonical_name: SN7430
     aliases: ["74x30", "7430"]
     category: basic_gates
@@ -117,6 +124,7 @@ chips:
     priority: 9
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
+
   - canonical_name: SN74138
     aliases: ["74x138", "74138"]
     category: decoders
@@ -130,6 +138,7 @@ chips:
     priority: 10
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
+
   - canonical_name: SN74153
     aliases: ["74x153", "74153"]
     category: multiplexers
@@ -143,6 +152,7 @@ chips:
     priority: 11
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
+
   - canonical_name: SN74157
     aliases: ["74x157", "74157"]
     category: multiplexers
@@ -154,5 +164,285 @@ chips:
     assumptions: []
     notes: "Quad 2:1 mux with active-low enable; implementation complete and simulation passing."
     priority: 12
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN7401
+    aliases: ["74x01", "7401"]
+    category: specialty_gates
+    status: planned
+    rtl_file: rtl/sn7401.sv
+    doc_file: docs/sn7401.md
+    tb_file: tb/sn7401_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Quad 2-input NAND, open-collector outputs."
+    priority: 13
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN7403
+    aliases: ["74x03", "7403"]
+    category: specialty_gates
+    status: planned
+    rtl_file: rtl/sn7403.sv
+    doc_file: docs/sn7403.md
+    tb_file: tb/sn7403_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Quad 2-input NAND, open-collector outputs."
+    priority: 14
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN7405
+    aliases: ["74x05", "7405"]
+    category: specialty_gates
+    status: planned
+    rtl_file: rtl/sn7405.sv
+    doc_file: docs/sn7405.md
+    tb_file: tb/sn7405_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Hex inverter, open-collector outputs."
+    priority: 15
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN7406
+    aliases: ["74x06", "7406"]
+    category: specialty_gates
+    status: planned
+    rtl_file: rtl/sn7406.sv
+    doc_file: docs/sn7406.md
+    tb_file: tb/sn7406_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Hex inverter buffer, open-collector outputs."
+    priority: 16
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN7407
+    aliases: ["74x07", "7407"]
+    category: specialty_gates
+    status: planned
+    rtl_file: rtl/sn7407.sv
+    doc_file: docs/sn7407.md
+    tb_file: tb/sn7407_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Hex non-inverting buffer, open-collector outputs."
+    priority: 17
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN7411
+    aliases: ["74x11", "7411"]
+    category: basic_gates
+    status: planned
+    rtl_file: rtl/sn7411.sv
+    doc_file: docs/sn7411.md
+    tb_file: tb/sn7411_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Triple 3-input AND gate."
+    priority: 18
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN7427
+    aliases: ["74x27", "7427"]
+    category: basic_gates
+    status: planned
+    rtl_file: rtl/sn7427.sv
+    doc_file: docs/sn7427.md
+    tb_file: tb/sn7427_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Triple 3-input NOR gate."
+    priority: 19
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN74139
+    aliases: ["74x139", "74139"]
+    category: decoders
+    status: planned
+    rtl_file: rtl/sn74139.sv
+    doc_file: docs/sn74139.md
+    tb_file: tb/sn74139_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Dual 2-to-4 decoder/demultiplexer, active-low outputs."
+    priority: 20
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN74154
+    aliases: ["74x154", "74154"]
+    category: decoders
+    status: planned
+    rtl_file: rtl/sn74154.sv
+    doc_file: docs/sn74154.md
+    tb_file: tb/sn74154_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "4-to-16 decoder/demultiplexer, active-low outputs."
+    priority: 21
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN74151
+    aliases: ["74x151", "74151"]
+    category: multiplexers
+    status: planned
+    rtl_file: rtl/sn74151.sv
+    doc_file: docs/sn74151.md
+    tb_file: tb/sn74151_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "8-to-1 data selector with complementary outputs."
+    priority: 22
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN74158
+    aliases: ["74x158", "74158"]
+    category: multiplexers
+    status: planned
+    rtl_file: rtl/sn74158.sv
+    doc_file: docs/sn74158.md
+    tb_file: tb/sn74158_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Quad 2:1 inverting multiplexer with strobe."
+    priority: 23
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN74150
+    aliases: ["74x150", "74150"]
+    category: multiplexers
+    status: planned
+    rtl_file: rtl/sn74150.sv
+    doc_file: docs/sn74150.md
+    tb_file: tb/sn74150_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "16-to-1 data selector, active-low output."
+    priority: 24
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN7474
+    aliases: ["74x74", "7474"]
+    category: latches_flipflops
+    status: planned
+    rtl_file: rtl/sn7474.sv
+    doc_file: docs/sn7474.md
+    tb_file: tb/sn7474_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Dual D-type positive-edge-triggered flip-flops with preset/clear."
+    priority: 25
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN74107
+    aliases: ["74x107", "74107"]
+    category: latches_flipflops
+    status: planned
+    rtl_file: rtl/sn74107.sv
+    doc_file: docs/sn74107.md
+    tb_file: tb/sn74107_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Dual JK flip-flops with clear."
+    priority: 26
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN74109
+    aliases: ["74x109", "74109"]
+    category: latches_flipflops
+    status: planned
+    rtl_file: rtl/sn74109.sv
+    doc_file: docs/sn74109.md
+    tb_file: tb/sn74109_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Dual JK positive-edge-triggered flip-flops with preset and clear."
+    priority: 27
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN74161
+    aliases: ["74x161", "74161"]
+    category: counters
+    status: planned
+    rtl_file: rtl/sn74161.sv
+    doc_file: docs/sn74161.md
+    tb_file: tb/sn74161_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Synchronous 4-bit binary counter with load and clear."
+    priority: 28
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN74163
+    aliases: ["74x163", "74163"]
+    category: counters
+    status: planned
+    rtl_file: rtl/sn74163.sv
+    doc_file: docs/sn74163.md
+    tb_file: tb/sn74163_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "Synchronous 4-bit binary counter with synchronous clear."
+    priority: 29
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN74164
+    aliases: ["74x164", "74164"]
+    category: shift_registers
+    status: planned
+    rtl_file: rtl/sn74164.sv
+    doc_file: docs/sn74164.md
+    tb_file: tb/sn74164_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "8-bit serial-in parallel-out shift register."
+    priority: 30
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN74165
+    aliases: ["74x165", "74165"]
+    category: shift_registers
+    status: planned
+    rtl_file: rtl/sn74165.sv
+    doc_file: docs/sn74165.md
+    tb_file: tb/sn74165_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "8-bit parallel-load shift register with serial output."
+    priority: 31
+    blocked_reason: ""
+    completion_criteria: "Docs, RTL, TB, and simulation pass"
+
+  - canonical_name: SN74194
+    aliases: ["74x194", "74194"]
+    category: shift_registers
+    status: planned
+    rtl_file: rtl/sn74194.sv
+    doc_file: docs/sn74194.md
+    tb_file: tb/sn74194_tb.sv
+    verification_status: not_started
+    assumptions: []
+    notes: "4-bit bidirectional universal shift register."
+    priority: 32
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
