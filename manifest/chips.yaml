@@ -525,13 +525,14 @@ chips:
   - canonical_name: SN7417
     aliases: ["74x17", "7417"]
     category: specialty_gates
-    status: planned
+    status: complete
     rtl_file: rtl/sn7417.sv
     doc_file: docs/sn7417.md
     tb_file: tb/sn7417_tb.sv
-    verification_status: not_started
-    assumptions: []
-    notes: "Hex non-inverting buffer/driver, open-collector outputs."
+    verification_status: sim_pass
+    assumptions:
+      - "Open-collector electrical behavior is abstracted to logical non-inverting buffer output with implicit pull-up."
+    notes: "Hex non-inverting buffer/driver, open-collector outputs; implementation complete and simulation passing."
     priority: 38
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
