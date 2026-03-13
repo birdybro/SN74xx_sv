@@ -20,7 +20,7 @@
 | SN7406 | specialty_gates | complete | docs/sn7406.md | rtl/sn7406.sv | tb/sn7406_tb.sv | Hex inverter buffer, open-collector; sim_pass |
 | SN7407 | specialty_gates | complete | docs/sn7407.md | rtl/sn7407.sv | tb/sn7407_tb.sv | Hex buffer, open-collector; sim_pass |
 | SN7411 | basic_gates | complete | docs/sn7411.md | rtl/sn7411.sv | tb/sn7411_tb.sv | Triple 3-input AND; sim_pass |
-| SN7427 | basic_gates | planned | docs/sn7427.md | rtl/sn7427.sv | tb/sn7427_tb.sv | Triple 3-input NOR |
+| SN7427 | basic_gates | complete | docs/sn7427.md | rtl/sn7427.sv | tb/sn7427_tb.sv | Triple 3-input NOR; sim_pass |
 | SN74139 | decoders | planned | docs/sn74139.md | rtl/sn74139.sv | tb/sn74139_tb.sv | Dual 2-to-4 decoder |
 | SN74154 | decoders | planned | docs/sn74154.md | rtl/sn74154.sv | tb/sn74154_tb.sv | 4-to-16 decoder |
 | SN74151 | multiplexers | planned | docs/sn74151.md | rtl/sn74151.sv | tb/sn74151_tb.sv | 8:1 data selector |
