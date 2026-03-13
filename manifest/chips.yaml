@@ -482,13 +482,13 @@ chips:
   - canonical_name: SN7413
     aliases: ["74x13", "7413"]
     category: basic_gates
-    status: planned
+    status: complete
     rtl_file: rtl/sn7413.sv
     doc_file: docs/sn7413.md
     tb_file: tb/sn7413_tb.sv
-    verification_status: not_started
+    verification_status: sim_pass
     assumptions: []
-    notes: "Dual 4-input NAND Schmitt-trigger gate."
+    notes: "Dual 4-input NAND Schmitt-trigger gate; implementation complete and simulation passing."
     priority: 35
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
