@@ -29,13 +29,13 @@ chips:
   - canonical_name: SN7404
     aliases: ["74x04", "7404"]
     category: basic_gates
-    status: planned
+    status: complete
     rtl_file: rtl/sn7404.sv
     doc_file: docs/sn7404.md
     tb_file: tb/sn7404_tb.sv
-    verification_status: not_started
+    verification_status: sim_pass
     assumptions: []
-    notes: ""
+    notes: "Hex inverter; implementation complete and simulation passing."
     priority: 3
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
