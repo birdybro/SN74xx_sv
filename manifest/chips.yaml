@@ -42,13 +42,13 @@ chips:
   - canonical_name: SN7408
     aliases: ["74x08", "7408"]
     category: basic_gates
-    status: planned
+    status: complete
     rtl_file: rtl/sn7408.sv
     doc_file: docs/sn7408.md
     tb_file: tb/sn7408_tb.sv
-    verification_status: not_started
+    verification_status: sim_pass
     assumptions: []
-    notes: ""
+    notes: "Quad 2-input AND gate; implementation complete and simulation passing."
     priority: 4
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
