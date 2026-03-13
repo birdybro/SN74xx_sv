@@ -42,7 +42,7 @@
 | SN7417 | specialty_gates | complete | docs/sn7417.md | rtl/sn7417.sv | tb/sn7417_tb.sv | Hex non-inverting buffer/driver, open-collector outputs; sim_pass |
 | SN7421 | basic_gates | complete | docs/sn7421.md | rtl/sn7421.sv | tb/sn7421_tb.sv | Dual 4-input AND gate; sim_pass |
 | SN7425 | basic_gates | complete | docs/sn7425.md | rtl/sn7425.sv | tb/sn7425_tb.sv | Dual 4-input NOR gate with strobe; sim_pass |
-| SN7426 | specialty_gates | planned | docs/sn7426.md | rtl/sn7426.sv | tb/sn7426_tb.sv | Quad 2-input NAND gate/buffer, open-collector outputs. |
+| SN7426 | specialty_gates | complete | docs/sn7426.md | rtl/sn7426.sv | tb/sn7426_tb.sv | Quad 2-input NAND gate/buffer, open-collector outputs; sim_pass |
 | SN7428 | basic_gates | planned | docs/sn7428.md | rtl/sn7428.sv | tb/sn7428_tb.sv | Quad 2-input NOR buffer gate. |
 | SN7433 | specialty_gates | planned | docs/sn7433.md | rtl/sn7433.sv | tb/sn7433_tb.sv | Quad 2-input NOR gate, open-collector outputs. |
 | SN7437 | specialty_gates | planned | docs/sn7437.md | rtl/sn7437.sv | tb/sn7437_tb.sv | Quad 2-input NAND buffer gate. |
