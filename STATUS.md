@@ -2,11 +2,11 @@
 
 - Date: 2026-03-13
 - Total chips in manifest: 12
-- Complete: 9
+- Complete: 10
 - Blocked: 0
 - Excluded: 0
-- In progress: 1 (SN74138)
-- Next target chip: SN74138
+- In progress: 1 (SN74153)
+- Next target chip: SN74153
 
 ## Recent Progress
 
@@ -20,6 +20,8 @@
 - Completed SN7410 docs, RTL, testbench, and simulation.
 - Completed SN7420 docs, RTL, testbench, and simulation.
 - Completed SN7430 docs, RTL, testbench, and simulation.
+- Completed SN74138 docs, RTL, testbench, and simulation.
+- Next chip selected: SN74153.
 - Next chip selected: SN74138.
 - Next chip selected: SN7430.
 - Next chip selected: SN7420.

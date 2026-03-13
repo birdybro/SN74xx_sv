@@ -120,13 +120,13 @@ chips:
   - canonical_name: SN74138
     aliases: ["74x138", "74138"]
     category: decoders
-    status: planned
+    status: complete
     rtl_file: rtl/sn74138.sv
     doc_file: docs/sn74138.md
     tb_file: tb/sn74138_tb.sv
-    verification_status: not_started
+    verification_status: sim_pass
     assumptions: []
-    notes: ""
+    notes: "3-to-8 decoder with active-low outputs; implementation complete and simulation passing."
     priority: 10
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
