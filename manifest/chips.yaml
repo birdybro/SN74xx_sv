@@ -81,13 +81,13 @@ chips:
   - canonical_name: SN7410
     aliases: ["74x10", "7410"]
     category: basic_gates
-    status: planned
+    status: complete
     rtl_file: rtl/sn7410.sv
     doc_file: docs/sn7410.md
     tb_file: tb/sn7410_tb.sv
-    verification_status: not_started
+    verification_status: sim_pass
     assumptions: []
-    notes: ""
+    notes: "Triple 3-input NAND gate; implementation complete and simulation passing."
     priority: 7
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
