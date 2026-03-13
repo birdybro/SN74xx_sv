@@ -55,13 +55,13 @@ chips:
   - canonical_name: SN7432
     aliases: ["74x32", "7432"]
     category: basic_gates
-    status: planned
+    status: complete
     rtl_file: rtl/sn7432.sv
     doc_file: docs/sn7432.md
     tb_file: tb/sn7432_tb.sv
-    verification_status: not_started
+    verification_status: sim_pass
     assumptions: []
-    notes: ""
+    notes: "Quad 2-input OR gate; implementation complete and simulation passing."
     priority: 5
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
