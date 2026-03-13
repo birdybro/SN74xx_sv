@@ -3,7 +3,7 @@
 | Chip | Category | Status | Docs | RTL | Testbench | Notes |
 |---|---|---|---|---|---|---|
 | SN7400 | basic_gates | complete | docs/sn7400.md | rtl/sn7400.sv | tb/sn7400_tb.sv | Quad 2-input NAND; sim_pass |
-| SN7402 | basic_gates | planned | docs/sn7402.md | rtl/sn7402.sv | tb/sn7402_tb.sv | Quad 2-input NOR |
+| SN7402 | basic_gates | complete | docs/sn7402.md | rtl/sn7402.sv | tb/sn7402_tb.sv | Quad 2-input NOR; sim_pass |
 | SN7404 | basic_gates | planned | docs/sn7404.md | rtl/sn7404.sv | tb/sn7404_tb.sv | Hex inverter |
 | SN7408 | basic_gates | planned | docs/sn7408.md | rtl/sn7408.sv | tb/sn7408_tb.sv | Quad 2-input AND |
 | SN7432 | basic_gates | planned | docs/sn7432.md | rtl/sn7432.sv | tb/sn7432_tb.sv | Quad 2-input OR |

@@ -16,13 +16,13 @@ chips:
   - canonical_name: SN7402
     aliases: ["74x02", "7402"]
     category: basic_gates
-    status: planned
+    status: complete
     rtl_file: rtl/sn7402.sv
     doc_file: docs/sn7402.md
     tb_file: tb/sn7402_tb.sv
-    verification_status: not_started
+    verification_status: sim_pass
     assumptions: []
-    notes: ""
+    notes: "Quad 2-input NOR gate; implementation complete and simulation passing."
     priority: 2
     blocked_reason: ""
     completion_criteria: "Docs, RTL, TB, and simulation pass"
